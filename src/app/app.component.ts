@@ -12,7 +12,7 @@ import { AccountInfo } from './account-info';
 export class AppComponent {
   account: AccountInfo = {
     name: 'Melisa Evan',
-    membershipStatus: 'platinum',
+    membershipStatus: 'gold',
     validThru: '12/2022',
     CVV: '123',
   };
