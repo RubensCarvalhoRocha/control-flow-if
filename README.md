@@ -1,4 +1,4 @@
-# Making decisions in the template: ControlFlowIf with @if and ControlFlowSwitch with @switch
+# ControlFlowIf: Template Conditions with @if and @switch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
