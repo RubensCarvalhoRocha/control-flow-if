@@ -4,10 +4,10 @@
   <section class="membership-info">
     <p>
       <!-- name -->
-      {{ "" }}
+      {{ account.name }}
     </p>
-    <p>Valid Thru: {{ "" }}</p>
-    <p>CVV: {{ "" }}</p>
+    <p>Valid Thru: {{ account.validThru }}</p>
+    <p>CVV: {{ account.CVV }}</p>
     <p>
       <!-- membership status -->
       @switch (account.membershipStatus) {

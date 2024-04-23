@@ -12,7 +12,8 @@ import { AccountInfo } from './account-info';
 export class AppComponent {
   account: AccountInfo = {
     name: 'Rubens',
-    membershipStatus: 'gold',
+    //Change the membershipStatus value to 'gold' or 'silver' or 'platinum'
+    membershipStatus: 'platinum',
     validThru: '12/2022',
     CVV: '123',
   };
